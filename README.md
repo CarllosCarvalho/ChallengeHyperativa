@@ -7,7 +7,7 @@ REST API for registration and lookup of credit card numbers with secure storage.
 - **Java 21** + **Spring Boot 3.2.5**
 - **Spring Security** + **JWT** (stateless authentication)
 - **Spring Data JPA** (persistence)
-- **H2** (development) / **PostgreSQL** (production)
+- **H2** (development) / **MySQL** (production)
 - **AES-256-GCM** (card data encryption)
 - **SHA-256** (hash for indexed lookups)
 - **SpringDoc OpenAPI** (Swagger documentation)
